@@ -10,7 +10,7 @@ Camila Lescano Vásquez
 -->
 
 ## Ejemplo en vivo
-*Por actualizar
+Para poder ver el programa puedes hacer click aquí: https://camilalescano.github.io/ProgramaColores/
 
 ## Instalación
 Este proyecto no requiere instalación alguna, simplemente se abre el archivo index.html 
