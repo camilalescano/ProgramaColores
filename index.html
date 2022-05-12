@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Colores</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <script src="recursos.js"></script>
+
+
+</head>
+<body>
+
+    <header>
+        <h2>Programa que indica el color según el puntero</h2>
+        <p>El mouse está encima del cuadrado de color:</p>
+        <h2 id="respuesta">ninguno</h2>
+    </header>                
+
+    <div class="contenedor">
+        <!--FILA 1-->
+        <div class="item">
+            <div id="rojo" onmouseover="escribe(1)" onmouseout="escribe(0)"></div>
+            <div id="amarillo" onmouseover="escribe(2)" onmouseout="escribe(0)"></div>
+            <div id="verde" onmouseover="escribe(3)" onmouseout="escribe(0)"></div>
+            <div id="rosado" onmouseover="escribe(8)" onmouseout="escribe(0)"></div>
+            <div id="limon" onmouseover="escribe(9)" onmouseout="escribe(0)"></div>
+        </div>
+
+        <!--FILA 2-->
+        <div class="item">
+            <div id="azul" onmouseover="escribe(4)" onmouseout="escribe(0)"></div>
+            <div id="morado" onmouseover="escribe(5)" onmouseout="escribe(0)"></div>
+            <div id="naranja" onmouseover="escribe(6)" onmouseout="escribe(0)"></div>
+            <div id="celeste" onmouseover="escribe(7)" onmouseout="escribe(0)"></div>
+            <div id="gris" onmouseover="escribe(10)" onmouseout="escribe(0)"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
